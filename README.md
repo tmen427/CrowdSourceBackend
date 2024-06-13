@@ -8,7 +8,7 @@ To get the project running: <br>
 - The database should now be running
 - cd into the WeatherApi file and type: dotnet run 
 - The server should now be running 
-- On my pc it runs on this port http://localhost:5174/swagger/index.html. (Make sure to include /swagger to your url) <br>
+- On my pc it runs on this port http://localhost:5174/swagger/index.html. (Make sure to include /swagger to your url) 
 
 - In memory cacheing and unit testing will soon
 - The frontend was written in Angular.js-I will add the project to github in the near future
