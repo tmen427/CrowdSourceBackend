@@ -10,7 +10,7 @@ To get the project running:
 - The server should now be running 
 - On my pc it runs on this port ht<span>tp://</span>localhost:5174/swagger/index.html. (Make sure to include /swagger to your url) 
 
-- In memory cacheing and unit testing will soon
+- In memory caching and unit testing will soon
 - The frontend was written in Angular.js-I will add the project to github in the near future
 
 - This project is being hosted on an Amazon EC2 Ubuntu virtual machine with Nginx as a reverse proxy server. The database connection is established using Amazon Relational Database(RDS).  
