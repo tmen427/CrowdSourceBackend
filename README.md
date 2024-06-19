@@ -1,7 +1,7 @@
 Backend project for website the following website: https://weather.tonymdesigns.com/home <br>
 
 To get the project running: 
-- In your terminal type: "git clone https://github.com/tmen427/CrowdSourceBackend.git"
+- In your terminal type: git clone ht<span>tps://</span>github.com/tmen427/CrowdSourceBackend.git
 - This project uses Entity Framework with MS SQL.
 - To create the first migration type in the CLi: <b> dotnet ef migrations add InitialCreate </b>
 - To create the database and schema type : <b> dotnet ef database update </b>
