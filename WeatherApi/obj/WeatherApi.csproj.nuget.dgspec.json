@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tmac4\\Desktop\\FromGit\\CrowdSource\\WeatherApi\\WeatherApi\\WeatherApi.csproj": {}
+    "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\WeatherApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tmac4\\Desktop\\FromGit\\CrowdSource\\WeatherApi\\WeatherApi\\WeatherApi.csproj": {
+    "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\WeatherApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tmac4\\Desktop\\FromGit\\CrowdSource\\WeatherApi\\WeatherApi\\WeatherApi.csproj",
+        "projectUniqueName": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\WeatherApi.csproj",
         "projectName": "WeatherApi",
-        "projectPath": "C:\\Users\\tmac4\\Desktop\\FromGit\\CrowdSource\\WeatherApi\\WeatherApi\\WeatherApi.csproj",
+        "projectPath": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\WeatherApi.csproj",
         "packagesPath": "C:\\Users\\tmac4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tmac4\\Desktop\\FromGit\\CrowdSource\\WeatherApi\\WeatherApi\\obj\\",
+        "outputPath": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tmac4\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -62,6 +68,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.71, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -86,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -4,6 +4,7 @@ using System.Net.NetworkInformation;
 using WeatherApi.Data;
 using WeatherApi.Models;
 using Microsoft.Extensions.Configuration;
+using WeatherApi.Repo;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,7 +36,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<InformationContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-
+builder.Services.AddScoped<IRepo, InformationConnection>();
 
 var app = builder.Build();
 
