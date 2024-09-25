@@ -384,3 +384,5 @@ C:\Users\tmac4\Desktop\CrowdSourceBackend\WeatherApi\obj\Debug\net7.0\WeatherApi
 C:\Users\tmac4\Desktop\CrowdSourceBackend\WeatherApi\obj\Debug\net7.0\ref\WeatherApi.dll
 C:\Users\tmac4\Desktop\CrowdSourceBackend\WeatherApi\bin\Debug\net7.0\Castle.Core.dll
 C:\Users\tmac4\Desktop\CrowdSourceBackend\WeatherApi\bin\Debug\net7.0\Moq.dll
+C:\Users\tmac4\Desktop\CrowdSourceBackend\WeatherApi\bin\Debug\net7.0\xunit.abstractions.dll
+C:\Users\tmac4\Desktop\CrowdSourceBackend\WeatherApi\bin\Debug\net7.0\LanguageExt.Core.dll

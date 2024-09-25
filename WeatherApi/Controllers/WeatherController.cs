@@ -2,10 +2,17 @@
 
 
 using CrowSource.Conversion;
+using LanguageExt.ClassInstances;
+using LanguageExt.Common;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+using System.Diagnostics;
 using System.Globalization;
 using WeatherApi.Data;
+using WeatherApi.Filters;
 using WeatherApi.Models;
 using WeatherApi.Repo;
 
@@ -16,59 +23,49 @@ namespace WeatherApi.Controllers
     public class WeatherController : Controller
     {
 
-      // private readonly InformationContext _informationContext;
+      
         private readonly IRepo _informationConnection;
+
         public WeatherController(IRepo informationConnection)
         {
-        //   _informationContext = context;
             _informationConnection = informationConnection;
 
         }
 
+
         
         [HttpPost]
-        public  async Task<Models.Information?> ReturnString(InformationDTO infoDTO)
+        [Route("Post")]
+        public  async Task<Models.Information?> Post(InformationDTO infoDTO)
         {
-            try
-            {               
-               return await _informationConnection.Post(infoDTO);    
-            }
-            catch(Exception ex) 
-            {
-                Console.WriteLine(ex.Message);
-                return null; 
-            }
+                          
+               return await _informationConnection.PostFoodTruck(infoDTO);    
+         
         }
 
+
+       // [MyFirstFilter("500")]
+      
+        //[ProducesResponseType(StatusCodes.Status200OK)]
+       // [ProducesResponseType(StatusCodes.Status404NotFound)]
 
         [HttpGet]
-        [Route("GetByName")]
-        public IEnumerable<InformationDTO> ReturnByName(string name)
-        {
-           return _informationConnection.GetByName(name);
-
+        [Route("SearchFoodTruckName")]
+        public IEnumerable<InformationDTO> Search(string name)
+        { 
+                var getName = _informationConnection.SearchFoodTruckName(name);
+                return getName; 
         }
 
-  
+
+
         [HttpDelete]
-        [Route("DeleteByGuid")]
-
-        public async Task DeleteByGuid(Guid guid)
+        [Route("DeleteFoodTruck")]
+        public async Task Deletek(Guid guid)
         {
+              await _informationConnection.DeleteFoodTruck(guid);
 
-            try
-            {
-               await _informationConnection.DeleteByGuid(guid);
-            }
-            catch(Exception ex)
-            {
-           
-              throw new Exception(ex.Message);
-            }
         }
-
-
-
         //[HttpPut]
         //[Route("Home/Put")]
         //public async Task UpdateCurrent(InformationDTO info)
@@ -80,7 +77,7 @@ namespace WeatherApi.Controllers
         //    {
         //        //add the updated comment 
         //        model.Comments = info.Comments;
-        //        await _informationContext.SaveChangesAsync();
+        //        await _informationContext.SaveChangesAsync();l
         //    }
         //    else
         //    {
@@ -89,19 +86,14 @@ namespace WeatherApi.Controllers
 
         //}
 
-        [HttpGet]
-        [Route("ReturnOneName")]
-        public async Task<Models.Information> ReturnJustOneName(string x)
-        {
-            return await _informationConnection.GetBySingleName(x);
-        }
-        
+
 
         [HttpGet]
-        public async Task<List<InformationDTO>> ReturnAll()
+        [Route("GetAllFoodTrucks")]  
+        public async Task<List<InformationDTO>> GetAll()
         {
-     
-           return await _informationConnection.GetAll();
+           var foodtrucks = await _informationConnection.GetAllFoodTrucks();
+           return foodtrucks; 
         }
       
 

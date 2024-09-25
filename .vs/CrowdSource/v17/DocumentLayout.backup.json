@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD4E54FC-7E25-49BB-87B3-83CCA8474BF0}|MyControllerTesting\\MyControllerTesting.csproj|c:\\users\\tmac4\\desktop\\crowdsourcebackend\\mycontrollertesting\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD4E54FC-7E25-49BB-87B3-83CCA8474BF0}|MyControllerTesting\\MyControllerTesting.csproj|solutionrelative:mycontrollertesting\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E9B6684-A7B8-46F3-AB01-4597B1FFEC3F}|WeatherApi\\WeatherApi.csproj|c:\\users\\tmac4\\desktop\\crowdsourcebackend\\weatherapi\\filters\\exceptionfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E9B6684-A7B8-46F3-AB01-4597B1FFEC3F}|WeatherApi\\WeatherApi.csproj|solutionrelative:weatherapi\\filters\\exceptionfilterattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E9B6684-A7B8-46F3-AB01-4597B1FFEC3F}|WeatherApi\\WeatherApi.csproj|c:\\users\\tmac4\\desktop\\crowdsourcebackend\\weatherapi\\repo\\informationconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E9B6684-A7B8-46F3-AB01-4597B1FFEC3F}|WeatherApi\\WeatherApi.csproj|solutionrelative:weatherapi\\repo\\informationconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E9B6684-A7B8-46F3-AB01-4597B1FFEC3F}|WeatherApi\\WeatherApi.csproj|c:\\users\\tmac4\\desktop\\crowdsourcebackend\\weatherapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E9B6684-A7B8-46F3-AB01-4597B1FFEC3F}|WeatherApi\\WeatherApi.csproj|solutionrelative:weatherapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E9B6684-A7B8-46F3-AB01-4597B1FFEC3F}|WeatherApi\\WeatherApi.csproj|c:\\users\\tmac4\\desktop\\crowdsourcebackend\\weatherapi\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7E9B6684-A7B8-46F3-AB01-4597B1FFEC3F}|WeatherApi\\WeatherApi.csproj|c:\\users\\tmac4\\desktop\\crowdsourcebackend\\weatherapi\\repo\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E9B6684-A7B8-46F3-AB01-4597B1FFEC3F}|WeatherApi\\WeatherApi.csproj|solutionrelative:weatherapi\\repo\\irepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E9B6684-A7B8-46F3-AB01-4597B1FFEC3F}|WeatherApi\\WeatherApi.csproj|c:\\users\\tmac4\\desktop\\crowdsourcebackend\\weatherapi\\models\\informationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E9B6684-A7B8-46F3-AB01-4597B1FFEC3F}|WeatherApi\\WeatherApi.csproj|solutionrelative:weatherapi\\models\\informationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E9B6684-A7B8-46F3-AB01-4597B1FFEC3F}|WeatherApi\\WeatherApi.csproj|c:\\users\\tmac4\\desktop\\crowdsourcebackend\\weatherapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E9B6684-A7B8-46F3-AB01-4597B1FFEC3F}|WeatherApi\\WeatherApi.csproj|solutionrelative:weatherapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InformationDTO.cs",
-              "DocumentMoniker": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\Models\\InformationDTO.cs",
-              "RelativeDocumentMoniker": "WeatherApi\\Models\\InformationDTO.cs",
-              "ToolTip": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\Models\\InformationDTO.cs",
-              "RelativeToolTip": "WeatherApi\\Models\\InformationDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T16:02:21.001Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -63,13 +46,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExceptionFilterAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\Filters\\ExceptionFilterAttribute.cs",
+              "RelativeDocumentMoniker": "WeatherApi\\Filters\\ExceptionFilterAttribute.cs",
+              "ToolTip": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\Filters\\ExceptionFilterAttribute.cs",
+              "RelativeToolTip": "WeatherApi\\Filters\\ExceptionFilterAttribute.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T21:52:26.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\Program.cs",
+              "RelativeDocumentMoniker": "WeatherApi\\Program.cs",
+              "ToolTip": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\Program.cs",
+              "RelativeToolTip": "WeatherApi\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T21:42:00.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepo.cs",
+              "DocumentMoniker": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\Repo\\IRepo.cs",
+              "RelativeDocumentMoniker": "WeatherApi\\Repo\\IRepo.cs",
+              "ToolTip": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\Repo\\IRepo.cs",
+              "RelativeToolTip": "WeatherApi\\Repo\\IRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T20:49:21.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "InformationConnection.cs",
               "DocumentMoniker": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\Repo\\InformationConnection.cs",
               "RelativeDocumentMoniker": "WeatherApi\\Repo\\InformationConnection.cs",
               "ToolTip": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\Repo\\InformationConnection.cs",
               "RelativeToolTip": "WeatherApi\\Repo\\InformationConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T17:10:23.536Z",
               "EditorCaption": ""
@@ -77,51 +99,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IRepo.cs",
-              "DocumentMoniker": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\Repo\\IRepo.cs",
-              "RelativeDocumentMoniker": "WeatherApi\\Repo\\IRepo.cs",
-              "ToolTip": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\Repo\\IRepo.cs",
-              "RelativeToolTip": "WeatherApi\\Repo\\IRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T17:03:46.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\MyControllerTesting\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "MyControllerTesting\\UnitTest1.cs",
-              "ToolTip": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\MyControllerTesting\\UnitTest1.cs",
-              "RelativeToolTip": "MyControllerTesting\\UnitTest1.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAcwEoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T16:29:40.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\Program.cs",
-              "RelativeDocumentMoniker": "WeatherApi\\Program.cs",
-              "ToolTip": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\Program.cs",
-              "RelativeToolTip": "WeatherApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T22:47:53.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "WeatherController.cs",
               "DocumentMoniker": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\Controllers\\WeatherController.cs",
               "RelativeDocumentMoniker": "WeatherApi\\Controllers\\WeatherController.cs",
               "ToolTip": "C:\\Users\\tmac4\\Desktop\\CrowdSourceBackend\\WeatherApi\\Controllers\\WeatherController.cs",
               "RelativeToolTip": "WeatherApi\\Controllers\\WeatherController.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAAGQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAiwFEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-30T22:47:53.61Z",
               "EditorCaption": ""

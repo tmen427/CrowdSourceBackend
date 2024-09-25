@@ -5,12 +5,18 @@ using WeatherApi.Data;
 using WeatherApi.Models;
 using Microsoft.Extensions.Configuration;
 using WeatherApi.Repo;
+using WeatherApi.Middlware;
+using WeatherApi.Filters;
+using Microsoft.AspNetCore.Mvc.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+
+builder.Services.AddControllers(options => {  options.Filters.Add(new WeatherApi.Filters.ExceptionFilterAttribute()); });
+//builder.Services.AddControllers();
+//builder.Services.AddControllers(); 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
@@ -27,6 +33,7 @@ builder.Services.AddCors(options =>
 
 
 
+//builder.Services.AddTransient<ControllerMiddleware>(); 
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -55,6 +62,7 @@ app.UseCors(x => x
                .AllowCredentials());
 app.UseHttpsRedirection();
 
+//app.UseMiddleware<ControllerMiddleware>();
 app.UseAuthorization();
 
 app.MapControllers();
